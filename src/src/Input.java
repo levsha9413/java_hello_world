@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Input {
@@ -11,6 +12,9 @@ public class Input {
         System.out.println("Ввод");
         myString= scanner.nextLine(); // Запуск сканера, сканнер принимает символы до нажатия Enter
         System.out.println("Вы ввели:\n " + myString);
+        System.out.println("Введите число");
+        int myInt = scanner.nextInt(); //для приема чисел используется метод nextInt
+        System.out.println("myInt: " + myInt);
 
     }
 }
