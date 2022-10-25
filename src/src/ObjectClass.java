@@ -26,6 +26,6 @@ class Wuman{
     }
 
     public String toString(){     //переопределили метод родителя
-        return (this.name + " " + this.age); // теперь принт будет выводить то, что нам нужно
+return (this.name + " " + this.age); // теперь принт будет выводить то, что нам нужно
     }
 }
