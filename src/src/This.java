@@ -13,7 +13,8 @@ class Human{
     private String name;
 
     public void setAge(int age){ //в сетерах принято использовать this чтобы указать на поле, по аналогии с self в питоне
-        this.age = age;  //теперь  не нужно придумывать разные переменные
+        this.age = age;  //теперь не нужно придумывать разные переменные
+        //this указывает на экземпляр класса, со статичными полями он не работает
     }
     public void setName(String name){
         this.name = name;
