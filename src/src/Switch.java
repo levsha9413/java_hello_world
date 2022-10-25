@@ -7,7 +7,7 @@ public class Switch {
         String age = input.nextLine();
         System.out.println(age);
         switch (age){  //переменная которая сравнивается с значениями в case
-            case "10": //
+            case "10": // применяется как более лаконичная замена кучи else if
                 System.out.println("Возраст = 10");
                 break;// без брейк выполнится первое сработавшее сравнение и все нижестоящие
             case "20":
