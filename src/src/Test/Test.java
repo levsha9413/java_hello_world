@@ -6,7 +6,7 @@ public class Test {
         jack.eat();
         Animal animal = new Dog(); //полиморфизм, так можно, потому-что Dog содержит все методы Animal
         //Dog lassy = new Animal(); // так нельзя, т.к. у  Dog больше методов чем у Animal
-        //animal.bark(); //несмотря на то, что мы создали через Dog,
+        // animal.bark(); //несмотря на то, что мы создали через Dog,
         // мы имеем только методы, которые Dog наследовал от Animal
         //к методу bark доступа нет
         jack.bark(); // а у собаки есть
@@ -19,6 +19,10 @@ public class Test {
         PolimorfizmTest.dinnerTime(hangryAnimal); //благодаря static можем использовать метод не создавая объект
         PolimorfizmTest.dinnerTime(hangryCat);
         PolimorfizmTest.dinnerTime(hangryDog);
+
+        //down cast:
+        Animal beast = new Animal();
+        Dog wolf = (Dog) beast;
     }
 }
 
