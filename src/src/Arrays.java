@@ -20,3 +20,5 @@ public class Arrays {
          }
     }
 }
+//System.out.println(Arrays.toString(arrayDigits)); //[1, 2, 3, 4, 5] - полезный метод для вывода массива
+//тут не работает, потому-что переопределили класс Array

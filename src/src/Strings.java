@@ -7,6 +7,6 @@ public class Strings {
         String name = "Bob";
         System.out.println(myString + " " + name);
         System.out.println(name + 25 + 25); //Bob2525
-
+        //myString.split(" "); - метод для сепарации строк, возвращает массив строк
     }
 }
