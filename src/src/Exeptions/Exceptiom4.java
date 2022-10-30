@@ -16,9 +16,9 @@ public class Exceptiom4 {
             run();
         }catch (Exception e){
             System.out.println("Этот cath перехватит вообще все исключения");
-        }catch (RuntimeException t){
-            System.out.println("этот блок уже бессмысленен");
-        }
+        }//catch (RuntimeException t){
+           // System.out.println("этот блок уже бессмысленен");
+       // }
 
     }
     public static void run() throws ParseException, IOException { //метод может выбрасывать
